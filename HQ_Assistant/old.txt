@@ -1,0 +1,99 @@
+
+///
+/// Creates a googe search query with the given words stores the resulting hypertext (if there is any) in the hypertext data member
+/// If returnResult is true, the resulting hypertext is returned and not stored globaly in gthe container
+///
+func hypertextSearch(_ words: [String], returnResult : Bool) -> String? {
+
+print("> Performing hypertext search -", words)
+
+if(words.isEmpty) {
+print("ERROR: Attempting google search witout words to search for")
+return nil
+}
+
+var link = "http://www.google.com/search?q="
+for word in words {
+link.append(word)
+link.append("+")
+}
+link.removeLast()
+
+if let url = URL(string: link) {
+
+do {
+let _hypertext = try String(contentsOf: url, encoding: .utf8)
+
+if(returnResult == true) {
+return _hypertext
+} else {
+return nil
+}
+
+} catch {
+print("ERROR: Could not extract hypertext from hypertet search. link: ", link)
+return nil
+}
+} else {
+print("ERROR: Could not perform hypertextSearch. url: \(link) is invalid")
+return nil
+}
+}
+
+///
+/// Searches the hypertext
+/// * An optional list of search words can be used to tabulate results, if not provided,
+///	  each of the the choices are searched for by default
+///
+func process_Hypertext(hypertext: String, searchWords: [String]?, choiceIndex: Int?) {
+
+print("Processing hypertext search result")
+
+if searchWords != nil {
+for word in searchWords! {
+let wordCount = hypertext.countSubstring(substring: word)
+choiceRanks[choiceIndex!] += wordCount
+}
+} else {
+for (index, choice) in choices.enumerated() {
+for word in choice {
+let wordCount = hypertext.countSubstring(substring: word)
+choiceRanks[index] += wordCount
+}
+}
+}
+}
+
+func recieved_Hypertext(data: Data?, response: URLResponse?, error: Error?) -> Void {
+
+searchCount -= 1;
+
+if error != nil {
+print("ERROR: Hypertext search failed: ", error!)
+return
+}
+
+if response == nil {
+print("ERROR: Hypertext search failed: response == nil")
+return
+}
+
+do {
+
+let dictionary = try JSONSerialization.jsonObject(with: data!, options: []) as! [String: Any]
+
+if let results = dictionary["items"] as? [[String: Any]] {
+
+self.processHypertextSearchResults(searchResults: results, searchLinks: false)
+
+return
+} else {
+print("ERROR: Could not extract 'items' subdictionary from google api call response")
+return
+}
+
+} catch let error {
+print("ERROR: Could not serialize jSON Data from google api call response: \(error.localizedDescription)")
+return
+}
+}

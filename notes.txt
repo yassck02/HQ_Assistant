@@ -1,0 +1,92 @@
+- Use web api to avoid searching through raw html
+	- Answer searches could be limmited to just the webside description
+	- This could avoid single character miscounts making answer detection more accurate
+	- This will allow for the links to be read and searched more easily allowing for a more accurate search
+	- Could produce more results that just those displayed on a single page allowing for a more accurate search
+
+
+Optical character recognition
+- Base 64 image encoding
+
+Linguistic tagging
+- Extracting verbs, nouns, adjectives etc from a sentance
+
+Serializing and deserializing between Dictionaries and JSON files
+
+Multipart POST and GET REST api calls (OCR.space, Google Custom search)
+
+Grand Central Dispatce for conccurent code execution on multicore hardware
+
+
+
+Google the question, search for answers in the results
+Google each of the answers, search for the nouns of the quesiton in the results
+= 4 google searches (1 for the question, 1 for each of the 3 answers)
+
+
+
+
+Which of these:
+	- Google each of the choices and search for the key words in the question
++ NOT:
+	- Flip the result (pick the one tha occurs the least)
+
+
+
+
+// ----------------------------------------------------------------------
+intput: word set 1, word set 2
+
+	Google search wordset 1 
+		- append words from set one to the search query in order
+	search for word set 2 in the results
+		- Search the website descriptions for the words in set 2
+		- Optioanly visit and search the links to each site
+
+output: The word from set 2 that occurs the most in the google search
+// ----------------------------------------------------------------------
+
+// ----------------------------------------------------------------------
+input: Question, answers
+
+	Search full question, and searsh for answers
+	search each answer and search for key words from question
+
+output: Suggested answer
+// ----------------------------------------------------------------------
+
+
+
+EDGE CASES:
+- When one of the words in an answer is in the question
+- Single letter answers
+
+
+
+
+
+
+
+
+
+
+
+
+ReverseSearch() 						- Google search each answer choice
+processReverseSearch() 					- Scan the results for each key word from the question
+
+HypertextSearch([words])				- search google for the given words and return the hypertext
+processHypertextSearch()				- search through the hypertext text (string) 
+
+GoogleSearch([words]) 					- search the given words using a google api call and return the results in dictionary form
+processGoogleSearch([keyWords]?, bool) 	- Search site descriptions (string) for each of the kye words
+										- (optional) Visit and search site links using hypertext search
+
+
+
+
+
+
+
+
+

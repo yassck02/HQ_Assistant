@@ -1,0 +1,360 @@
+question = ["tony", "the", "tiger", "is", "the", "iconic", "mascot", "of", "what"]
+choices = [["grey", "poupon"], ["frosted", "flakes"], ["harlem", "globetrotters"]]
+
+question = ["where", "is", "sheboygan"]
+choices = [["california"], ["new", "york"], ["wisconsin"]]
+
+question = ["what", "will", "become", "the", "longest"-running "showtime", "show", "when", "it", "airs", "its", "9th", "season", "next", "year"]
+choices = [["dexter"], ["shameless"], ["what"]]
+
+question = ["what", "museum", "houses", "van", "goghs", "field", "with", "poppies"]
+choices = [["van", "gogh", "museum"], ["moma"], ["the", "louvre"]]
+
+question = ["wario", "made", "his", "first", "appearance", "in", "which", "nintendo", "game"]
+choices = [["yoshis", "island"], ["super", "mario", "land", "2"], ["mario", "kart", "64"]]
+
+question = ["in", "the", "twelve", "days", "of", "christmas", "what", "is", "given", "on", "the", "8th", "day"]
+choices = [["drumming", "drummers"], ["milking", "maids"], ["leaping", "lords"]]
+
+question = ["what", "is", "the", "oldest", "university", "still", "in", "operation"]
+choices = [["oxford", "university"], ["univ". "of", "a1-karaouine"], ["cambridge", "university"]]
+
+question = ["who", "was", "granted", "the", "first", "american", "automobile", "patent"]
+choices = [["henry", "ford"], ["george", "selden"], ["karl", "benz"]]
+
+question = ["how", "many", "volumes", "make", "up", "the", "world", "book", "encyclopedia"]
+choices = [["26"], ["22"], ["28"]]
+
+question = ["which", "of", "these", "songs", "was", "performed", "during", "the", "2017", "super", "bowl", "halftime", "show"]
+choices = [["uptown", "funk"], ["formation"], ["bad", "romance"]]
+
+question = ["what", "was", "the", "first", "successfully", "cloned", "animal"]
+choices = [["sheep"], ["mouse"], ["sea", "urchin"]]
+
+question = ["who", "is", "the", "only", "actor", "to", "win", "an", "oscar", "for", "playing", "a", "character", "named", "oscar"]
+choices = [["melvyn", "douglas"], ["charles", "laughton"], ["edmond", "obrien"]]
+
+question = ["in", "charles", "dickens", "a", "christmas", "carol", "what", "was", "mr". "scrooges", "first", "name"]
+choices = [["ebenezer"], ["george"], ["william"]]
+
+question = ["in", "the", "context", "of", "audio", "and", "data", "storage", "what", "does", "the", "c", "stand", "for", "in", "cd"]
+choices = [["computerized"], ["concentrated"], ["compact"]
+
+question = ["that", "vertical", "indent", "between", "your", "nose", "and", "your", "mouth", "is", "called", "what"]
+choices = [["philtrum"], ["plinth"], ["crestling"]]
+
+question = ["the", "logo", "of", "which", "major", "fashion", "label", "features", "a", "mythological", "villain"]
+choices = [["hermes"], ["versace"], ["giorgio", "armani"]]
+
+question = ["which", "of", "these", "shows", "includes", "an", "element", "of", "time", "travel"]
+choices = [["life", "on", "mars"], ["child", "in", "time"], ["repeat", "offender"]]
+
+question = ["which", "of", "these", "americans", "cities", "is", "closest", "in", "latitude", "to", "bermuda"]
+choices = [["new", "orleans", "la"], ["miami", "fl"], ["savannah", "ga"]]
+
+question = ["who", "of", "these", "was", "not", "a", "key", "figure", "in", "the", "iran", "contra", "affair"]
+choices = [["manucher", "ghorbanifar"], ["james", "baker"], ["john", "poindexter"]]
+
+question = ["which", "of", "these", "chemicals", "is", "not", "used", "in", "dry", "cleaning"]
+choices = [["glycol", "ethers"], ["liquid", "silicone"], ["perchloric", "acid"]]
+
+question = ["alexander", "ill", "of", "macedon", "was", "most", "well", "known", "by", "which", "name"]
+choices = [["alexander", "the", "great"], ["allison"], ["albert"]]
+
+question = ["which", "game", "is", "played", "with", "mallets", "and", "wickets"]
+choices = [["volleyball"], ["water", "polo"], ["croquet"]]
+
+question = ["how", "many", "time", "zones", "does", "the", "contiguous", "u".s. "cover"]
+choices = [["6"], ["3"], ["4"]]
+
+question = ["the", "process", "known", "as", "fracking", "is", "short", "for", "which", "phrase"]
+choices = [["fracture", "cracking"], ["faultline", "breaking"], ["hydraulic", "fracturing"]]
+
+question = ["which", "beverage", "company", "was", "the", "first", "to", "use", "santa", "claus", "in", "its", "national", "marketing"]
+choices = [["rc", "cola"], ["white", "rock"], ["beverages", "coca cola"]]
+
+question = ["which", "one", "of", "these", "movies", "is", "not", "about", "dinosaurs"]
+choices = [["tyrannosaur"], ["the", "valley", "of", "gwangi"], ["theodore", "rex"]]
+
+question = ["which", "of", "these", "words", "is", "a", "portmanteau"]
+choices = [["vitamin"], ["procrastinate"], ["sunflower"]]
+
+question = ["which", "of", "these", "is", "not", "a", "real", "component", "of", "a", "mechanical", "wristwatch"]
+choices = [["energyspring"], ["wheel", "train"], ["hacking", "feature"]]
+
+question = ["which", "town", "used", "to", "be", "the", "most", "densely"-packed "in", "the", "world", "but", "is", "now", "empty"]
+choices = [["hashima"], ["hiroshima"], ["pompeii"]]
+
+question = ["which", "of", "these", "creatures", "is", "not", "a", "fish"]
+choices = [["ring", "tailed", "horntooth"], ["spotcheck", "stargazer"], ["oyster", "toadfish"]]
+
+question = ["which", "of", "these", "countries", "initially", "joined", "the", "kyoto", "protocol", "but", "has", "not", "agreed", "to", "proceed", "to", "the", "second", "stage"]
+choices = [["argentina"], ["mexico"], ["canada"]]
+
+question = ["which", "of", "these", "ingredients", "is", "not", "found", "in", "red", "bull", "simply", "cola"]
+choices = [["galangal"], ["grapefruit", "peel"], ["corn", "mint"]]
+
+question = ["which", "1960s", "event", "inspired", "the", "creation", "of", "moon", "boots", "for", "consumers"]
+choices = [["beatlemania"], ["moon", "landing"], ["sound", "of", "music"]]
+
+question = ["what", "is", "a", "wetnap"]
+choices = [["moist", "towelette"], ["maternity", "snooze"], ["sleeping", "underwater"]]
+
+question = ["the", "times", "square", "ball", "is", "based", "on", "a", "device", "that", "was", "first", "built", "in", "what", "british", "city"]
+choices = [["alabama"], ["greenwich"], ["new", "jersey"]]
+
+question = ["which", "of", "these", "apps", "is", "used", "for", "mobile", "payments"]
+choices = [["paperless"], ["hopper"], ["venmo"]]
+
+question = ["finish", "the", "lyrics": "should", "auld", "acquaintance", "be", "forgot", "and", "never"]
+choices = [["brought", "to", "mind"], ["rush", "time"], ["hand", "o", "thine"]]
+
+question = ["spenser": "for", "hire", "st". "elsewhere", "and", "american", "gothic", "all", "have", "what", "in", "common"]
+choices = [["city"], ["lead", "actor"], ["creator"]]
+
+question = ["which", "mariah", "carey", "song", "holds", "the", "billboard", "record", "for", "most", "weeks", "at", "#1"]
+choices = [["hero"], ["emotions"], ["one", "sweet", "day"]]
+
+question = ["how", "much", "heavier", "is", "the", "new", "new", "years", "eve", "ball", "than", "the", "original", "that", "first", "dropped", "in", "1907"]
+choices = [["11175", "pounds"], ["1175", "pounds"], ["175", "pounds"]]
+
+question = ["the", "band", "walk", "the", "moon", "got", "its", "name", "from", "another", "band", "fronted", "by", "who"]
+choices = [["sting"], ["phil", "collins"], ["liam", "gallagher"]]
+
+question = ["Which", "of", "these", "TV", "shows", "focuses", "on", "a", "modern", "day", "family"]
+choices = [["Star", "Trek:", "Discovery"], ["Modern", "Family"], ["Futurama"]]
+Keywords:  ["TV", "shows", "modern", "day", "family"]
+
+question = ["In", "what", "city", "did", "the", "arrest", "of", "Rosa", "Parks", "spark", "a", "bus", "boycott"]
+choices = [["Montgomery"], ["Detroit"], ["Moose", "Jaw"]]
+Keywords:  ["city", "arrest", "Rosa", "Parks", "bus", "boycott"]
+
+question = ["Photographer", "Dora", "Maar", "was", "also", "the", "muse", "of", "what", "artist"]
+choices = [["Salvador", "Dali"], ["Thomas", "Kinkade"], ["Pablo", "Picasso"]]
+Keywords:  ["Photographer", "Dora", "Maar", "muse"]
+
+question = ["What", "is", "the", "only", "jersey", "number", "that", "has", "been", "retired", "by", "all", "MLB", "teams"]
+choices = [["33"], ["8"], ["42"]]
+Keywords:  ["only", "jersey", "number", "MLB", "teams"]
+
+question = ["What", "novel", "was", "originally", "published", "under", "the", "pseudonym", "Victoria", "Lucas"]
+choices = [["50", "Shades", "Grey"], ["Lolita"], ["The", "Bell", "Jar"]]
+Keywords:  ["novel", "pseudonym", "Victoria", "Lucas"]
+
+question = ["Dr.", "Martin", "Luther", "King", "Jr.", "received", "his", "doctorate", "in", "what", "discipline"]
+choices = [["Systematic", "Theology"], ["Humane", "Letters"], ["Law", "Policy"]]
+Keywords:  ["Dr.", "Martin", "Luther", "King", "Jr", "doctorate"]
+
+question = ["What", "countrys", "capital", "is", "also", "a", "letter", "in", "the", "NATO", "phonetic", "alphabet", "Peru", "Italy", "Norway"]
+choices = [["13873"], ["5731"], ["10934"]]
+Keywords:  ["capital", "letter", "NATO", "phonetic", "alphabet", "Peru", "Italy", "Norway"]
+
+question = ["Which", "of", "these", "is", "true", "about", "fjords"]
+choices = [["Named", "after", "king"], ["Only", "found", "in", "Europe"], ["They", "have", "coral", "reefs"]]
+Keywords:  ["true", "fjords"]
+
+question = ["What", "is", "the", "best", "selling", "magazine", "in", "the", "U.S.", "after", "AAR", "P"]
+choices = [["People"], ["Better", "Homes", "Gardens"], ["National", "Geographic"]]
+Keywords:  ["best", "magazine", "U.S.", "AAR", "P"]
+
+question = ["What", "state", "once", "but", "no", "longer", "had", "an", "official", "rock", "song"]
+choices = [["Oklahoma"], ["Tennessee"], ["Washington"]]
+Keywords:  ["state", "longer", "official", "rock", "song"]
+
+question = ["Which", "of", "these", "actresses", "won", "a", "Razzie", "and", "Oscar", "in", "the", "same", "year"]
+choices = [["Halle", "Berry"], ["Sandra", "Bullock"], ["Angelina", "Jolie"]]
+Keywords:  ["actresses", "Razzie", "Oscar", "same", "year"]
+
+question = ["Nicole", "Kidman", "and", "Reese", "Witherspoon", "co-starred", "in", "and", "produced", "what", "tv", "series"]
+choices = [["Big", "Little", "Lies"], ["Bob", "Newhart", "Show"], ["Simpsons"]]
+
+question = ["which", "sport", "never", "ends", "with", "a", "shootout"]
+choices = [["football"], ["hockey"], ["soccer"]]
+
+question = ["bobs", "and", "sprites", "refers", "to", "what"]
+choices = [["fishing", "equipment"], ["computer", "animation"], ["soda", "industry"]]
+
+question = ["How", "many", "controllers", "did", "the", "original", "Sega", "Genesis", "come", "with"]
+choices = [["2"], ["0"], ["1"]]
+
+question = ["a", "square", "with", "rounded", "edges", "is", "a", "mathematical", "term", "called", "what"]
+choices = [["arctagon"], ["squircle"], ["rectazoid"]]
+
+question = ["who", "won", "the", "first", "ever", "olympic", "medal", "in", "boxing’s", "heaviest", "weight", "class"]
+choices = [["Riddick", "Bowe"], ["Tyrell", "Biggs"], ["Lennox", "Lewis"]]
+
+question = ["which", "of", "these", "movies", "is", "not", "about", "angels"]
+choices = [["wings", "of", "desire"], ["legion"], ["heavenly", "creatures"]]
+
+question = ["which", "of", "these", "album", "titles", "is", "not", "derived", "from", "a", "line", "in", "a", "shakespeare", "play"]
+choices = [["sigh", "no", "more"], ["all", "things", "must", "pass"], ["sea", "change"]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+question = ["who", "has", "never", "hosted", "new", "years", "rockin", "eve"]
+choices = ["george", "carlin", "jimmy", "kimmel", "regis", "philbin"]
+
+question = ["the", "japanese", "pottery", "style", "raku", "is", "renowned", "for", "which", "of", "these", "traits"]
+choices = ["consistent", "results", "unpredictable", "results", "extreme", "durability"]
+
+question = ["what", "happened", "the", "day", "after", "jimi", "hendripassed", "away"]
+choices = ["1st", "glastonbury", "festival", "us", "invasion", "of", "cambodia", "beatles", "broke", "up"]
+
+question = ["marvel’s", "spider", "man", "got", "his", "powers", "after", "being", "bitten", "by", "what"]
+choices = shark spider shetland pony]
+
+question = ["which", "of", "these", "is", "not", "a", "position", "in", "baseball"]
+choices = l[eft fielder right fielder strawberry fielder]
+
+question = ["the", "movement", "of", "blood", "throughout", "the", "body", "is", "known", "as", "the", "what"]
+choices = n[ervous system digestive system circulatory system]
+
+question = ["poland", "spring", "water", "was", "first", "discovered", "from", "which", "country"]
+choices = u[nited states poland switzerland]
+
+question = ["which", "of", "these", "hip"-hop "acts", "performed", "as", "a", "duo"]
+choices = s[alt-n-pepa the fugees mobb deep]
+
+question = ["what", "ingredient", "can", "assist", "in", "turning", "a", "hollandaise", "sauce", "into", "a", "bearnaise", "sauce"]
+choices = t[arragon butter cream]
+
+question = ["which", "of", "these", "is", "an", "example", "of", "a", "cryptid"]
+choices = s[udoku puzzle loch ness monster catacombs of paris]
+
+question = ["in", "the", "first", "season", "of", "hbo’s", "“the", "young", "pope”", "how", "young", "is", "the", "pope"]
+choices = 2[4 years 36 years 47 years]
+
+question = ["which", "of", "these", "senators", "represents", "a", "state", "with", "no", "sales", "tax"]
+choices = s[an. lisa murkowski sen. tom cotton sen. lindsey graham]
+
+question = ["which", "of", "these", "insults", "is", "also", "an", "english", "dessert", "of", "pureed", "fruit"]
+choices = f[ool chump loon]
+
+question = ["which", "of", "these", "websites", "was", "founded", "a", "division", "of", "microsoft"]
+choices = e[xpedia hotmail skype]
+
+question = ["which", "1960s", "event", "inspired", "the", "creation", "of", "moon", "boots", "for", "consumers"]
+choices = t[he sound of music the moon landing beatlemania]
+
+question = ["what", "is", "a", "wet"-nap]
+choices = s[leeping underwater maternity snooze moist towelette]
+
+question = ["the", "times", "square", "ball", "is", "based", "on", "a", "device", "that", "was", "first", "built", "in", "what", "british", "city"]
+choices = n[ew jersey greenwich alabama]
+
+question = ["which", "of", "these", "apps", "is", "used", "for", "mobile", "payments"]
+choices = v[enmo hopper paperless]
+
+question = ["finish", "the", "lyrics", ":", "“should", "auld", "acquaintance", "be", "forgot", "and", "never____”". "hand", "o’", "thine", " "rush", "the", "time", " "brought" ]"to", "mind", "
+"question [["=" “spenser ":", "for", "hire”", "“st". "elsewhere”", "and", "“american", "gothic”", "all", "have", "what", "in", "common"]]
+choices = c[reator lead actor city]
+
+question = ["which", "mariah", "carey", "song", "holds", "the", "billboard", "record", "for", "most", "weeks", "at", "#1"]
+choices = o[ne sweet day emotions hero]
+
+question = ["how", "much", "heavier", "is", "the", "“new”", "new", "year’s", "eve", "ball", "than", "the", "original", "that", "first", "dropped", "in", "1907"]
+choices = 1[75 pounds 1175 pounds 11175 pounds]
+
+question = ["the", "band", "“walk", "the", "moon”", "got", "its", "name", "from", "another", "band", "fronted", "by", "who"]
+choices = l[iam gallagher phil collins sting]
+
+question = ["who", "has", "never", "hosted", "new", "year’s", "rockin’", "eve"]
+choices = r[egis philbin jimmy kimmel george carlin]
+
+question = ["what", "happened", "in", "the", "day", "after", "jimi", "hendrix", "passed", "away"]
+choices = b[eatles broke up us invasion of cambodia 1st glastonbury festival]
+
+question = ["which", "of", "these", "is", "a", "fruit", "with", "a", "hard", "shell", "and", "an", "edible", "seed"]
+choices = t[urtle nut potato]
+
+question = ["which", "of", "these", "describes", "chrome"]
+choices = s[teel plated iron laser buffed metal electroplated metal]
+
+question = ["which", "word", "is", "not", "a", "synonym", "for", "‘giving", "authority’"]
+choices = r[elegate delegate deputize]
+
+question = ["gian", "carlo", "menotti", "broke", "ground", "by", "writing", "the", "first", "opera", "for", "what"]
+choices = t[elevision electronic instruments female vocalists]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
