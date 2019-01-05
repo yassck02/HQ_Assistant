@@ -52,12 +52,12 @@ class SearchAgent {
 			print("ERROR: Agent \(ID!): No search job to execute")
 			Solver.errorCount += 1;
 		} else {
-			switch searchJob!.type {
-			case .google_api:
+			switch searchJob {
+            case SearchType.google_api:
 				search_Google_api(searchJob!.strings)
-			case .google_url:
+			case SearchType.google_url:
 				search_Google_url(searchJob!.strings)
-			case .link:
+			case SearchType.link:
 				search_Link(searchJob!.strings.first!)
 			default:
 				print("")
